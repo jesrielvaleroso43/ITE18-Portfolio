@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS1.css">
+    <title>Jesriel Valeroso - Portfolio</title>
+</head>
+
+<body>
+    <section class="hero" aria-labelledby="intro-title">
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <h2 id="intro-title"> Hi, I'm Jesriel T. Valeroso</h2>
+                    <p class="lead"> I build simple, human-friendly web experiences.</p>
+                    <a class="btn" href="#projects">See my work</a>
+                </div>
+                <figure class="profile">
+                    <img src="valeroso.png" alt="Jesriel" />
+                    <figcaption><strong>Based in Butuan City, PH</strong></figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container">
+            <h2 id="about-title">About</h2>
+            <p>
+                I am a beginner web developer focused on clean, accessible interfaces. I enjoy CSS layout, semantic HTML,
+                and learning by building.
+            </p>
+            <p>
+                I'm currently exploring <strong>HTML/CSS</strong> fundamentals and crafting small projects.
+                You can reach me on <a href="#contact">email</a> of see my code on
+                <a href="https://github.com" target="_blank" rel="noopener">github</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="container">
+            <h2 id="projects-title">Projects</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="pic.jpg" alt="Screenshot of Project A" />
+                    <div class="card-body">
+                        <h3>Projects A</h3>
+                        <p>A simple landing page using only HTML and CSS.</p>
+                        <a class="btn btn-outline" href="#" target="_blank" rel="noopener">View</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="maxresdefault.jpg" alt="Screenshot of Project B" />
+                    <div class="card-body">
+                        <h3>Project B</h3>
+                        <p>A responsive Portfolio layout with flexbox. </p>
+                        <a class="btn btn-outline" href="#" target="_blank" rel="noopener">View</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="Screenshot.jpg" alt="Screenshot of Project C" />
+                    <div class="card-body">
+                        <h3>Project C</h3>
+                        <p>A Clean contact page with form styles.</p>
+                        <a class="btn btn-outline" href="#" target="_blank" rel="noopener">View</a>
+                        </div>
+                        </article>
+                        </div>
+            </div>
+    </section>
+    
+    <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="container">
+            <h2 id="skills-title">Skills</h2>
+            <ul class="chips" role="list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git & Github</li>
+                <li>Accessibility</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+    <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        
+        <div class="contact-section">
+            <div class="contact-header">
+                <h3>Get in Touch</h3>
+                <p>Your Voice is my Concern.</p>
+            </div>
+            
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" class="form-control" name="firstName" placeholder="Please enter first name..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Please enter last name..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Please enter email..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" class="form-control" name="phone" placeholder="Please enter phone number...">
+                </div>
+                
+                <div class="form-group full-width">
+                    <label for="message">WHAT DO YOU HAVE IN MIND</label>
+                    <textarea id="message" class="form-control" name="message" placeholder="Please enter query..." required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+        
+        <address class="contact-info">
+            Email: <a href="mailto:Jesriel@gmail.com">Jesriel@gmail.com</a><br />
+            Location: Butuan City, Philippines
+        </address>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <span id="year">2025</span> Jesriel Valeroso . Built with HTML & CSS
+</footer>
+</body>
+</html>
